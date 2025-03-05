@@ -1,0 +1,58 @@
+.section{
+    padding: 10px;
+    max-width: 600px;
+    text-align: center;
+    background-color: aliceblue;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    font-size: 10px;
+    margin-bottom: 50px;
+}
+.Form{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px;
+    width: 500px;
+    row-gap: 15px;
+    margin-bottom: 30px;
+    background-color: rgb(149, 201, 245);
+}
+.error-message{
+    font-size: 20px;
+}
+
+input,
+select,
+button{
+    height: 40px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    padding-left: 6px;
+    padding-right: 15px;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: grey;
+    transition: opacity 0.3s ease;
+    outline: none;
+}
+input,
+select::placeholder{
+    font-size: 20px;
+    font-family:  'Helvetica Neue', sans-serif;
+}
+input:hover{
+    box-shadow: 2px 2px 5px rgba(100, 0, 0, 0.5);
+}
+select:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+button:hover{
+    opacity: 0.7;
+}
+button:active{
+    opacity: 0.5;
+}

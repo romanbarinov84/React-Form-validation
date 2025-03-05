@@ -1,0 +1,10 @@
+
+.HeaderText{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  width: 100vw;
+  color: goldenrod;
+  box-shadow: 1px 2px 2px 1px rgba(50, 80, 100, .3);
+}
